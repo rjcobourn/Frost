@@ -197,9 +197,7 @@ const ListRow = memo(function ListRow({ listUrl, onBack }: { listUrl: string; on
             <div>{list && listVersionLabel(list.version)}</div>
             <SeparatorDark />
             <ExternalLink href={`https://tokenlists.org/token-list?url=${listUrl}`}>View list</ExternalLink>
-            <UnpaddedLinkStyledButton onClick={handleRemoveList} disabled={Object.keys(listsByUrl).length === 1}>
-              Remove list
-            </UnpaddedLinkStyledButton>
+            <UnpaddedLinkStyledButton onClick={handleRemoveList}>Remove list</UnpaddedLinkStyledButton>
             {pending && (
               <UnpaddedLinkStyledButton onClick={handleAcceptListUpdate}>Update list</UnpaddedLinkStyledButton>
             )}
