@@ -18,11 +18,11 @@ export function isAddress(value: any): string | false {
 }
 
 const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
-  80001: 'mumbai.polygonscan.com'
+  970: 'https://mainnet-scan.oortech.com'
 } as const
 
 export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
-  const prefix = `https://${ETHERSCAN_PREFIXES[chainId]}` || 'https://mumbai.polygonscan.com'
+  const prefix = `${ETHERSCAN_PREFIXES[chainId]}` || 'https://mainnet-scan.oortech.com'
 
   switch (type) {
     case 'transaction': {
