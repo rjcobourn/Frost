@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 80" width="150" height="80">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 50" width="150" height="50">
   <!-- Dark mode wordmark - sleek and sophisticated with transparent background -->
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&amp;display=swap');
-    .wordmark { 
-      font-family: 'Inter', sans-serif; 
-      font-weight: 200; 
-      letter-spacing: 4px;
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&amp;display=swap');
+    .wordmark {
+      font-family: 'Playfair Display', serif;
+      font-weight: 400;
+      letter-spacing: 3px;
       fill: #e8f7ff;
     }
   </style>
-  
-  <!-- Main text - clean and minimal -->
-  <text x="75" y="50" class="wordmark" text-anchor="middle" font-size="36">
+ 
+  <!-- Main text - elegant and sophisticated -->
+  <text x="75" y="35" class="wordmark" text-anchor="middle" font-size="32">
     FROST
   </text>
 </svg>
