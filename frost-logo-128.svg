@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Hexagonal Background -->
+  <polygon points="64,4 112,32 112,96 64,124 16,96 16,32" fill="#0a192f"/>
+  
+  <!-- Inner Hexagonal border -->
+  <polygon points="64,12 104,36 104,92 64,116 24,92 24,36" fill="none" stroke="#152238" stroke-width="0.8"/>
+  
+  <!-- Inner hexagonal fill -->
+  <polygon points="64,16 100,40 100,88 64,112 28,88 28,40" fill="#132747"/>
+  
+  <!-- Hexagonal glow outline -->
+  <polygon points="64,14 102,38 102,90 64,114 26,90 26,38" fill="none" stroke="#4ba3e3" stroke-width="1.2" stroke-opacity="0.6"/>
+  
+  <!-- Frost Crystal Snowflake -->
+  <g fill="#a3e1ff">
+    <!-- Main Crystal Spikes -->
+    <path d="M64,16 L64,112" stroke="#7acbff" stroke-width="2" fill="none"/>
+    <path d="M24,64 L104,64" stroke="#7acbff" stroke-width="2" fill="none"/>
+    <path d="M32,32 L96,96" stroke="#7acbff" stroke-width="2" fill="none"/>
+    <path d="M32,96 L96,32" stroke="#7acbff" stroke-width="2" fill="none"/>
+    
+    <!-- Small Crystal Nodes -->
+    <circle cx="64" cy="64" r="4.8" fill="#e8f7ff"/>
+    <circle cx="64" cy="40" r="3.2" fill="#d0f0ff"/>
+    <circle cx="64" cy="88" r="3.2" fill="#d0f0ff"/>
+    <circle cx="40" cy="64" r="3.2" fill="#d0f0ff"/>
+    <circle cx="88" cy="64" r="3.2" fill="#d0f0ff"/>
+    <circle cx="48" cy="48" r="3.2" fill="#d0f0ff"/>
+    <circle cx="80" cy="80" r="3.2" fill="#d0f0ff"/>
+    <circle cx="48" cy="80" r="3.2" fill="#d0f0ff"/>
+    <circle cx="80" cy="48" r="3.2" fill="#d0f0ff"/>
+  </g>
+  
+  <!-- Outer faint glow for icy effect - hexagonal -->
+  <polygon points="64,20 96,42 96,86 64,108 32,86 32,42" fill="none" stroke="#a3e1ff" stroke-width="0.8" stroke-opacity="0.3"/>
+  <polygon points="64,24 92,44 92,84 64,104 36,84 36,44" fill="none" stroke="#a3e1ff" stroke-width="0.6" stroke-opacity="0.2"/>
+</svg>
