@@ -6,11 +6,12 @@ import styled, {
   css,
   DefaultTheme
 } from 'styled-components'
-import { useIsDarkMode } from '../state/user/hooks'
 import { Text, TextProps } from 'rebass'
 import { Colors } from './styled'
 
 export * from './components'
+
+const useIsDarkMode = true
 
 const MEDIA_WIDTHS = {
   upToExtraSmall: 500,
@@ -115,7 +116,7 @@ export function theme(darkMode: boolean): DefaultTheme {
 }
 
 export default function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const darkMode = useIsDarkMode()
+  const darkMode = useIsDarkMode
 
   const themeObject = useMemo(() => theme(darkMode), [darkMode])
 
